@@ -2,5 +2,8 @@ theme: jekyll-theme-minimal
 
 title: 
 description: 
+show_downloads: false
+github:
+  is_project_page: false
 
 logo: /files/img/picture2.jpg
