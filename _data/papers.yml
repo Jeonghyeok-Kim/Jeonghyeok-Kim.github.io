@@ -38,14 +38,14 @@ working_papers:
       - "Media Coverage: [EducationWeek](https://www.edweek.org/leadership/the-harm-of-school-closures-can-last-a-lifetime-new-research-shows/2024/06), [Texas Standard (NPR)](https://www.texasstandard.org/stories/school-closures-texas-pease-elementary-impact-students-academics/), [Houston Chronicle](https://www.houstonchronicle.com/news/houston-texas/education/hisd/article/school-closures-academics-21358511.php)"
 
   - title: "The Racial Gap in Friendships Among High-Achieving Students"
-    summary: "Race-neutral homophily and school demographics, rather than \"acting White\" norms, explain most of the friendship gap among high-achieving Black students."
+    summary: "School demographics, not \"acting White\" norms, explain why high-achieving Black students have fewer friends."
     info: "(with [Weonhyeok Chung](https://sites.google.com/view/weonhyeokchung/home))"
     links:
       pdf: /assets/Friendship_Formation_by_Race_and_Abilities.pdf
       EdWorkingPapers: https://edworkingpapers.com/ai24-1025
 
   - title: "Low Psychic Costs of Education for Women and the Gender Wage Gap"
-    summary: "Women's lower psychic costs of schooling help explain the gender gap in college attainment and part of the wage gap among college graduates."
+    summary: "Women's lower psychic costs of schooling help explain gender gaps in college attainment and wages."
     info: ", Revise and Resubmit at *Economics of Education Review*"
     links:
       pdf: /assets/Noncognitive_skills_and_gender_gaps.pdf
@@ -54,7 +54,7 @@ working_papers:
 publications:
 
   - title: "\"Population Changes and Emerging Challenges to Global Primary Education Provision\""
-    summary: "Demographic change is polarizing primary education systems worldwide, from expansion pressure in poorer countries to consolidation in aging societies like Korea."
+    summary: "Demographic change is polarizing primary education systems worldwide."
     title_link: https://onlinelibrary.wiley.com/doi/full/10.1111/padr.70059
     info: ", *Population and Development Review*, Volume 52, Issue 2, June 2026 (with [Emily Hannum](https://sociology.sas.upenn.edu/people/emily-hannum) and [Fan Wang](https://fanwangecon.github.io/))"
 
