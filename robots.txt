@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jeonghyeok-kim.github.io/sitemap.xml

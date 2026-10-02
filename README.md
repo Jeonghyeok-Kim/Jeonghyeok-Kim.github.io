@@ -1,3 +1,7 @@
-# Jeonghyeok Kim
+# Jeonghyeok Kim — personal academic website
 
-Visit my website at: [https://sites.google.com/view/jkecon/]
+Live at https://jeonghyeok-kim.github.io/
+
+- `index.html` — the whole site (About, Research, Teaching)
+- `assets/` — CV and paper PDFs
+- `assets/img/profile.jpg` — profile photo (optional; the page shows initials if missing)
