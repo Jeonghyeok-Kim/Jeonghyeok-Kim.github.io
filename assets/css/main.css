@@ -84,7 +84,20 @@ a:hover { color: #1d4237; }
 
 /* Papers */
 .paper { margin-bottom: 26px; }
-.paper.has-summary { display: grid; grid-template-columns: minmax(0, 1fr) 230px; gap: 40px; align-items: start; }
+/* Research list: the paper column keeps its width (--paper-col); only the summary column is wider. */
+.research-list { --paper-col: 682px; --summary-col: 300px; }
+.research-list .paper { max-width: var(--paper-col); }
+.research-list .paper.has-summary {
+  display: grid; grid-template-columns: var(--paper-col) var(--summary-col); gap: 40px; align-items: start;
+  max-width: none;
+}
+@media (min-width: 1100px) {
+  .research-list { margin-right: -70px; }   /* summary column extends a little past the header edge */
+}
+@media (max-width: 1099px) {
+  .research-list .paper.has-summary { grid-template-columns: minmax(0, 1fr) 230px; }
+  .research-list .paper { max-width: none; }
+}
 .paper-summary {
   margin: 3px 0 0 !important; font-size: 13.5px; line-height: 1.5; color: var(--muted);
   padding-left: 14px; border-left: 2px solid var(--rule);
@@ -112,5 +125,5 @@ a:hover { color: #1d4237; }
   .profile .photo-frame { grid-row: 1 / span 3; }
   .initials { font-size: 34px; }
   .profile-name { margin-top: 0; }
-  .paper.has-summary { grid-template-columns: 1fr; gap: 6px; }
+  .research-list .paper.has-summary { grid-template-columns: 1fr; gap: 6px; }
 }
