@@ -18,7 +18,7 @@
 working_papers:
 
   - title: "Neighborhood Impacts on STEM Major Choice"
-    summary: "Growing up in a STEM-rich neighborhood makes students more likely to major in STEM, with effects that grow with each additional year of exposure."
+    summary: "Growing up in a STEM-rich neighborhood makes students more likely to major in STEM."
     info: "(with Rohit Munshi and Brian Murphy)"
     links:
       pdf: /assets/Neighborhood_effects_STEM.pdf
@@ -27,7 +27,7 @@ working_papers:
       - "This paper is featured in the [EdWorkingPapers Policy and Practice Series](https://edworkingpapers.com/policy-practice-series/ai25-1263)."
 
   - title: "The Long Shadow of School Closures: Impacts on Students' Educational and Labor Market Outcomes"
-    summary: "School closures lower displaced students' test scores, educational attainment, and earnings well into their late twenties."
+    summary: "School closures lower displaced students' test scores, educational attainment, and earnings."
     info: ", Forthcoming at *American Economic Journal: Economic Policy*"
     links:
       pdf: /assets/School_Closure_and_Student_Outcomes.pdf
