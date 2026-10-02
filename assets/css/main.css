@@ -45,7 +45,7 @@ a:hover { color: #1d4237; }
 .page { padding-top: 48px; padding-bottom: 56px; min-height: 60vh; }
 
 /* Home ------------------------------------------------------- */
-.intro { display: grid; grid-template-columns: minmax(0, 1fr) 250px; gap: 56px; align-items: start; }
+.intro { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 52px; align-items: start; }
 .eyebrow { margin: 0 0 4px; font-size: 14px; color: var(--muted); letter-spacing: 0.04em; }
 .intro h1 { font: 500 44px/1.1 var(--serif); margin: 0 0 14px; letter-spacing: -0.015em; }
 .role { margin: 0 0 26px; padding-left: 14px; border-left: 3px solid var(--accent); color: var(--ink); line-height: 1.5; }

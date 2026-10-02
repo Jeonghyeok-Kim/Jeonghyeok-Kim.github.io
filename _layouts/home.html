@@ -12,15 +12,6 @@ layout: default
 </script>
 
 <section class="intro">
-  <div class="intro-text">
-    <p class="eyebrow">{{ p.name_alt }}</p>
-    <h1>{{ p.name }}</h1>
-    <p class="role">{{ p.position }}<br><a href="{{ p.institution_url }}">{{ p.institution }}</a></p>
-    <div class="prose">
-      {{ content }}
-    </div>
-  </div>
-
   <aside class="intro-card">
     <div class="photo-frame">
       <img src="{{ p.photo | relative_url }}" alt="{{ p.name }}"
@@ -36,4 +27,14 @@ layout: default
       <dd>{{ p.institution }}<br>{{ p.address }}</dd>
     </dl>
   </aside>
+
+  <div class="intro-text">
+    <p class="eyebrow">{{ p.name_alt }}</p>
+    <h1>{{ p.name }}</h1>
+    <p class="role">{{ p.position }}<br><a href="{{ p.institution_url }}">{{ p.institution }}</a></p>
+    <div class="prose">
+      {{ content }}
+    </div>
+  </div>
+
 </section>
