@@ -18,13 +18,7 @@ layout: default
       <span class="initials" aria-hidden="true">JK</span>
     </div>
     <h1 class="profile-name">{{ p.name }}</h1>
-    <p class="profile-alt">{{ p.name_alt }}</p>
     <p class="profile-role">{% for line in p.title_lines %}{{ line }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</p>
-    <ul class="profile-links">
-      <li><a href="mailto:{{ p.email }}">Email</a></li>
-      <li><a href="{{ p.cv | relative_url }}">CV</a></li>
-      <li><a href="{{ p.scholar }}">Google Scholar</a></li>
-    </ul>
   </aside>
 
   <div class="intro-text prose">

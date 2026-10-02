@@ -13,7 +13,7 @@
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="brand" href="{{ '/' | relative_url }}">
-        <span class="brand-name">{{ site.profile.name }}</span>
+        <span class="brand-name">{{ site.profile.name }}{% if site.profile.name_suffix %} {{ site.profile.name_suffix }}{% endif %}</span>
         <span class="brand-sub">{{ site.profile.institution }}</span>
       </a>
       <nav aria-label="Main">
