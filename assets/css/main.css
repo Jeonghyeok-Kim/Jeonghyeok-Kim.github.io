@@ -83,7 +83,7 @@ a:hover { color: #1d4237; }
 .section-title::after { content: ""; flex: 1; height: 1px; background: var(--rule); }
 
 /* Papers */
-.paper { margin-bottom: 38px; }
+.paper { margin-bottom: 52px; }
 /* Research list: the paper column keeps its width (--paper-col); only the summary column is wider. */
 .research-list { --paper-col: 682px; --summary-col: 300px; }
 .research-list .paper { max-width: var(--paper-col); }
