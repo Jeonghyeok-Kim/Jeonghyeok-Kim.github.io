@@ -6,69 +6,24 @@
 #  Every field except "title" is optional — delete lines you
 #  don't need. Keep the two-space indentation.
 #
-#  Links: "PDF: /assets/FileName.pdf" for files you uploaded to
-#  the assets folder, or a full https:// address for anything else.
+#  title_link: makes the title itself a link (optional)
+#  info:       text shown right after the title, e.g. coauthors or status
+#  links:      shown as "pdf | SSRN | ..." under the title
+#  notes:      extra lines under the links (awards, media, ...)
+#  abstract:   shown when "Abstract" is clicked
+#
+#  In info / notes you can write links as [text](https://...).
 # ------------------------------------------------------------
-
-publications:
-
-  - title: "The Long Shadow of School Closures: Impacts on Students' Educational and Labor Market Outcomes"
-    venue: "American Economic Journal: Economic Policy, forthcoming"
-    honor: "Recognized as one of the five best education research studies of 2024 by the Fordham Institute"
-    links:
-      PDF: /assets/School_Closure_and_Student_Outcomes.pdf
-      SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4607309
-      EdWorkingPapers: https://edworkingpapers.com/ai24-963
-    media:
-      Education Week: https://www.edweek.org/leadership/the-harm-of-school-closures-can-last-a-lifetime-new-research-shows/2024/06
-      Texas Standard (NPR): https://www.texasstandard.org/stories/school-closures-texas-pease-elementary-impact-students-academics/
-      Houston Chronicle: https://www.houstonchronicle.com/news/houston-texas/education/hisd/article/school-closures-academics-21358511.php
-    abstract: >-
-      Each year, about a thousand public schools in the US close, displacing
-      hundreds of thousands of students. I examine the impact of public school
-      closures on displaced students using linked schooling and labor market
-      data from Texas. Using within-school across-time/cohort variation in
-      exposure to school closures, I implement difference-in-differences
-      strategies to identify causal effects. I find that school closures
-      decrease test scores, increase absenteeism, and lead to more disciplinary
-      actions. Furthermore, school closures decrease high school completion,
-      college attainment, employment, and earnings at ages 25–27. These impacts
-      are larger for secondary school students and those from economically
-      disadvantaged backgrounds.
-
-  - title: "From Population Growth to Demographic Scarcity: Emerging Challenges to Global Primary Education Provision in the Twenty-first Century"
-    coauthors: "with Emily Hannum and Fan Wang"
-    venue: "Population and Development Review, 52(2), June 2026"
-    links:
-      Journal: https://onlinelibrary.wiley.com/doi/full/10.1111/padr.70059
-      PDF: /assets/GlobalChildrenTeachersSchools_HannumKimWang.pdf
-    abstract: >-
-      Global demographic changes in recent decades have sharply altered the
-      contexts in which governments provide education. Focusing on primary
-      education, we demonstrate, first, that recent demographic trends have been
-      highly polarizing for education systems worldwide. Persistent expansionary
-      pressures burden some of the least-resourced educational systems, whereas
-      these pressures are reversing in wealthier countries with higher
-      educational expenditures. Second, we document that global educational
-      systems have adapted to narrow gaps in student- or child-teacher ratios,
-      despite polarizing demographic trends. Third, we show that system
-      responses vary where school age cohorts are declining, although little is
-      known about the impacts of system responses. And finally, examining Korea,
-      a case at the leading edge of the transition to population scarcity, we
-      demonstrate that educational system consolidation can introduce new
-      salience to geospatial hierarchies and the political economy of
-      allocative decisions. Research is sorely needed to understand how national
-      educational systems are impacted by and adapting to the disparate forces
-      of population growth and scarcity.
 
 working_papers:
 
   - title: "Neighborhood Impacts on STEM Major Choice"
-    coauthors: "with Rohit Munshi and Brian Murphy"
-    honor: "Featured in the EdWorkingPapers Policy and Practice Series"
+    info: "(with Rohit Munshi and Brian Murphy)"
     links:
-      PDF: /assets/Neighborhood_effects_STEM.pdf
+      pdf: /assets/Neighborhood_effects_STEM.pdf
       EdWorkingPapers: https://edworkingpapers.com/ai25-1263
+    notes:
+      - "This paper is featured in the [EdWorkingPapers Policy and Practice Series](https://edworkingpapers.com/policy-practice-series/ai25-1263)."
     abstract: >-
       This paper provides causal evidence that childhood neighborhoods shape
       college major choice. Using Texas administrative data and variation in
@@ -82,10 +37,32 @@ working_papers:
       underscore the critical role of neighborhoods in shaping educational
       pathways and STEM participation.
 
-  - title: "The Racial Gap in Friendships Among High-Achieving Students"
-    coauthors: "with Weonhyeok Chung"
+  - title: "The Long Shadow of School Closures: Impacts on Students' Educational and Labor Market Outcomes"
+    info: ", Forthcoming at *American Economic Journal: Economic Policy*"
     links:
-      PDF: /assets/Friendship_Formation_by_Race_and_Abilities.pdf
+      pdf: /assets/School_Closure_and_Student_Outcomes.pdf
+      SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4607309
+      EdWorkingPapers: https://edworkingpapers.com/ai24-963
+    notes:
+      - "[Recognized as One of the Five Best Education Research Studies of 2024 by Fordham Institute](https://x.com/MichaelPetrilli/status/1870111404180574369)"
+      - "Media Coverage: [EducationWeek](https://www.edweek.org/leadership/the-harm-of-school-closures-can-last-a-lifetime-new-research-shows/2024/06), [Texas Standard (NPR)](https://www.texasstandard.org/stories/school-closures-texas-pease-elementary-impact-students-academics/), [Houston Chronicle](https://www.houstonchronicle.com/news/houston-texas/education/hisd/article/school-closures-academics-21358511.php)"
+    abstract: >-
+      Each year, about a thousand public schools in the US close, displacing
+      hundreds of thousands of students. I examine the impact of public school
+      closures on displaced students using linked schooling and labor market
+      data from Texas. Using within-school across-time/cohort variation in
+      exposure to school closures, I implement difference-in-differences
+      strategies to identify causal effects. I find that school closures
+      decrease test scores, increase absenteeism, and lead to more disciplinary
+      actions. Furthermore, school closures decrease high school completion,
+      college attainment, employment, and earnings at ages 25–27. These impacts
+      are larger for secondary school students and those from economically
+      disadvantaged backgrounds.
+
+  - title: "The Racial Gap in Friendships Among High-Achieving Students"
+    info: "(with [Weonhyeok Chung](https://sites.google.com/view/weonhyeokchung/home))"
+    links:
+      pdf: /assets/Friendship_Formation_by_Race_and_Abilities.pdf
       EdWorkingPapers: https://edworkingpapers.com/ai24-1025
     abstract: >-
       High-achieving Black students have fewer friends than high-achieving White
@@ -107,8 +84,9 @@ working_papers:
       downstream consequences for racial inequality in adulthood.
 
   - title: "Low Psychic Costs of Education for Women and the Gender Wage Gap"
+    info: ", Revise and Resubmit at *Economics of Education Review*"
     links:
-      PDF: /assets/Noncognitive_skills_and_gender_gaps.pdf
+      pdf: /assets/Noncognitive_skills_and_gender_gaps.pdf
       SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4758383
     abstract: >-
       In recent years, women have surpassed men in educational attainment,
@@ -129,10 +107,16 @@ working_papers:
       associated with gender comparisons at the same educational level,
       particularly when various skills are not available.
 
+publications:
+
+  - title: "\"Population Changes and Emerging Challenges to Global Primary Education Provision\""
+    title_link: https://onlinelibrary.wiley.com/doi/full/10.1111/padr.70059
+    info: ", *Population and Development Review*, Volume 52, Issue 2, June 2026 (with [Emily Hannum](https://sociology.sas.upenn.edu/people/emily-hannum) and [Fan Wang](https://fanwangecon.github.io/))"
+
 pre_doctoral:
 
-  - title: "The Relative Poorness of the Old Living Alone"
-    venue: "Korean Journal of Population Studies, 41(3), October 2018"
+  - title: "“The Relative Poorness of the Old Living Alone,”"
+    info: "Korean Journal of Population Studies, Volume 41, Issue 3, October 2018"
 
-  - title: "The Effect of the National Basic Living Security System in Korea on Labor Supply"
-    venue: "Master's Thesis, Seoul National University, 2019"
+  - title: "“The Effect of the National Basic Living Security System in Korea on Labor Supply,”"
+    info: "Master Thesis SNU, 2019"

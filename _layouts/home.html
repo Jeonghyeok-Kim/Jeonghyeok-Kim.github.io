@@ -12,29 +12,22 @@ layout: default
 </script>
 
 <section class="intro">
-  <aside class="intro-card">
+  <aside class="profile">
     <div class="photo-frame">
-      <img src="{{ p.photo | relative_url }}" alt="{{ p.name }}"
-           onerror="this.remove()">
+      <img src="{{ p.photo | relative_url }}" alt="{{ p.name }}" onerror="this.remove()">
       <span class="initials" aria-hidden="true">JK</span>
     </div>
-    <dl class="contact">
-      <dt>Email</dt>
-      <dd><a href="mailto:{{ p.email }}">{{ p.email }}</a>{% if p.email_alt %}<br><a href="mailto:{{ p.email_alt }}">{{ p.email_alt }}</a>{% endif %}</dd>
-      <dt>Profiles</dt>
-      <dd><a href="{{ p.cv | relative_url }}">CV (PDF)</a> · <a href="{{ p.scholar }}">Google Scholar</a></dd>
-      <dt>Office</dt>
-      <dd>{{ p.institution }}<br>{{ p.address }}</dd>
-    </dl>
+    <h1 class="profile-name">{{ p.name }}</h1>
+    <p class="profile-alt">{{ p.name_alt }}</p>
+    <p class="profile-role">{% for line in p.title_lines %}{{ line }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</p>
+    <ul class="profile-links">
+      <li><a href="mailto:{{ p.email }}">Email</a></li>
+      <li><a href="{{ p.cv | relative_url }}">CV</a></li>
+      <li><a href="{{ p.scholar }}">Google Scholar</a></li>
+    </ul>
   </aside>
 
-  <div class="intro-text">
-    <p class="eyebrow">{{ p.name_alt }}</p>
-    <h1>{{ p.name }}</h1>
-    <p class="role">{{ p.position }}<br><a href="{{ p.institution_url }}">{{ p.institution }}</a></p>
-    <div class="prose">
-      {{ content }}
-    </div>
+  <div class="intro-text prose">
+    {{ content }}
   </div>
-
 </section>

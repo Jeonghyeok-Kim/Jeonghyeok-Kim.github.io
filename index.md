@@ -2,6 +2,14 @@
 layout: home
 ---
 
-I am an Assistant Research Fellow at the [Institute of Economics, Academia Sinica](https://www.econ.sinica.edu.tw/). Before joining Academia Sinica, I was a Postdoctoral Fellow at the Institute of Population and Human Capital, Yonsei University. I received my Ph.D. in Economics from the University of Houston in 2025.
+Welcome!
 
-My research is in **labor economics**, the **economics of education**, and **health economics**. I use administrative data and quasi-experimental methods to study how schools, neighborhoods, and public policies shape human capital and labor market outcomes.
+I am an Assistant Research Fellow (Assistant Professor) at the [Institute of Economics, Academia Sinica](https://www.econ.sinica.edu.tw/).
+
+My primary research interests are in labor economics, the economics of education, and health economics.
+
+[CV](/assets/CV.pdf), [Google Scholar](https://scholar.google.com/citations?user=3UnLqmgAAAAJ&hl=en)
+
+## Contact Information
+
+Email: [jhk6222@gmail.com](mailto:jhk6222@gmail.com), [jk@econ.sinica.edu.tw](mailto:jk@econ.sinica.edu.tw)

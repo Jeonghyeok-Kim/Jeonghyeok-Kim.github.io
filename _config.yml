@@ -15,11 +15,13 @@ lang: en
 
 profile:
   name: Jeonghyeok Kim
-  name_alt: 金楨赫 · 김정혁
-  position: Assistant Research Fellow (Assistant Professor)
+  name_alt: 金楨赫
+  title_lines:                       # lines shown under the photo
+    - Assistant Research Fellow
+    - Institute of Economics,
+    - Academia Sinica
   institution: Institute of Economics, Academia Sinica
   institution_url: https://www.econ.sinica.edu.tw/
-  address: Nankang, Taipei, Taiwan
   photo: /assets/img/profile.jpg      # upload a photo with this name; initials show until then
   email: jk@econ.sinica.edu.tw
   email_alt: jhk6222@gmail.com
@@ -34,8 +36,6 @@ nav:
     url: /research/
   - title: Teaching
     url: /teaching/
-  - title: CV
-    url: /assets/CV.pdf
 
 plugins:
   - jekyll-sitemap
