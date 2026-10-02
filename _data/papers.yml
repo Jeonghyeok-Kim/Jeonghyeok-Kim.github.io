@@ -1,0 +1,138 @@
+# ------------------------------------------------------------
+#  Research page content.
+#
+#  To add a paper, copy one block (from "- title:" down to the
+#  next "- title:") into the right section and edit it.
+#  Every field except "title" is optional — delete lines you
+#  don't need. Keep the two-space indentation.
+#
+#  Links: "PDF: /assets/FileName.pdf" for files you uploaded to
+#  the assets folder, or a full https:// address for anything else.
+# ------------------------------------------------------------
+
+publications:
+
+  - title: "The Long Shadow of School Closures: Impacts on Students' Educational and Labor Market Outcomes"
+    venue: "American Economic Journal: Economic Policy, forthcoming"
+    honor: "Recognized as one of the five best education research studies of 2024 by the Fordham Institute"
+    links:
+      PDF: /assets/School_Closure_and_Student_Outcomes.pdf
+      SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4607309
+      EdWorkingPapers: https://edworkingpapers.com/ai24-963
+    media:
+      Education Week: https://www.edweek.org/leadership/the-harm-of-school-closures-can-last-a-lifetime-new-research-shows/2024/06
+      Texas Standard (NPR): https://www.texasstandard.org/stories/school-closures-texas-pease-elementary-impact-students-academics/
+      Houston Chronicle: https://www.houstonchronicle.com/news/houston-texas/education/hisd/article/school-closures-academics-21358511.php
+    abstract: >-
+      Each year, about a thousand public schools in the US close, displacing
+      hundreds of thousands of students. I examine the impact of public school
+      closures on displaced students using linked schooling and labor market
+      data from Texas. Using within-school across-time/cohort variation in
+      exposure to school closures, I implement difference-in-differences
+      strategies to identify causal effects. I find that school closures
+      decrease test scores, increase absenteeism, and lead to more disciplinary
+      actions. Furthermore, school closures decrease high school completion,
+      college attainment, employment, and earnings at ages 25–27. These impacts
+      are larger for secondary school students and those from economically
+      disadvantaged backgrounds.
+
+  - title: "From Population Growth to Demographic Scarcity: Emerging Challenges to Global Primary Education Provision in the Twenty-first Century"
+    coauthors: "with Emily Hannum and Fan Wang"
+    venue: "Population and Development Review, 52(2), June 2026"
+    links:
+      Journal: https://onlinelibrary.wiley.com/doi/full/10.1111/padr.70059
+      PDF: /assets/GlobalChildrenTeachersSchools_HannumKimWang.pdf
+    abstract: >-
+      Global demographic changes in recent decades have sharply altered the
+      contexts in which governments provide education. Focusing on primary
+      education, we demonstrate, first, that recent demographic trends have been
+      highly polarizing for education systems worldwide. Persistent expansionary
+      pressures burden some of the least-resourced educational systems, whereas
+      these pressures are reversing in wealthier countries with higher
+      educational expenditures. Second, we document that global educational
+      systems have adapted to narrow gaps in student- or child-teacher ratios,
+      despite polarizing demographic trends. Third, we show that system
+      responses vary where school age cohorts are declining, although little is
+      known about the impacts of system responses. And finally, examining Korea,
+      a case at the leading edge of the transition to population scarcity, we
+      demonstrate that educational system consolidation can introduce new
+      salience to geospatial hierarchies and the political economy of
+      allocative decisions. Research is sorely needed to understand how national
+      educational systems are impacted by and adapting to the disparate forces
+      of population growth and scarcity.
+
+working_papers:
+
+  - title: "Neighborhood Impacts on STEM Major Choice"
+    coauthors: "with Rohit Munshi and Brian Murphy"
+    honor: "Featured in the EdWorkingPapers Policy and Practice Series"
+    links:
+      PDF: /assets/Neighborhood_effects_STEM.pdf
+      EdWorkingPapers: https://edworkingpapers.com/ai25-1263
+    abstract: >-
+      This paper provides causal evidence that childhood neighborhoods shape
+      college major choice. Using Texas administrative data and variation in
+      school-move timing, we estimate the effect of neighborhood exposure on
+      STEM major choice. Students who move to STEM-rich neighborhoods are more
+      likely to major in STEM with each additional year of exposure. Local STEM
+      occupational composition is an important neighborhood characteristic
+      underlying this effect. The effects operate primarily through behavioral
+      pathways rather than academic performance. The benefits of STEM-rich
+      neighborhoods extend to underrepresented groups. These findings
+      underscore the critical role of neighborhoods in shaping educational
+      pathways and STEM participation.
+
+  - title: "The Racial Gap in Friendships Among High-Achieving Students"
+    coauthors: "with Weonhyeok Chung"
+    links:
+      PDF: /assets/Friendship_Formation_by_Race_and_Abilities.pdf
+      EdWorkingPapers: https://edworkingpapers.com/ai24-1025
+    abstract: >-
+      High-achieving Black students have fewer friends than high-achieving White
+      students. This pattern is often attributed to race-specific cultural
+      norms—most notably, the "acting White" hypothesis—which posit that
+      academically successful Black students face distinctive social costs from
+      their own racial group. Using nationally representative friendship network
+      data from the Add Health study, we revisit this interpretation. We show
+      that the gap can be largely accounted for by two race-neutral forces:
+      universal patterns of homophily—students of all races prefer friends who
+      share their race and achievement level—and the demographic structure of
+      schools, which leaves high-achieving Black students with a much smaller
+      pool of same-race, high-achieving peers. Counterfactual exercises that
+      equalize the demographic composition of schools eliminate most of the
+      friendship gap among high achievers, without invoking any group-specific
+      cultural attitudes toward achievement. Combining these estimates with
+      existing causal estimates of the economic returns to friendship suggests
+      that differences in adolescent social networks may have meaningful
+      downstream consequences for racial inequality in adulthood.
+
+  - title: "Low Psychic Costs of Education for Women and the Gender Wage Gap"
+    links:
+      PDF: /assets/Noncognitive_skills_and_gender_gaps.pdf
+      SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4758383
+    abstract: >-
+      In recent years, women have surpassed men in educational attainment,
+      leading some researchers to propose that women may have lower psychic
+      costs of attending school. To understand the implications of this, I
+      incorporate psychic costs explicitly into the Becker model of human
+      capital. The model generates predictions about differential sorting into
+      college and gender gaps in skills, education, and wages, which I
+      investigate with data from the NLSY97. I find that women have lower
+      psychic costs—measured by behavioral misdemeanors—controlling for which
+      reduces the estimated gender gap in college attainment by one-third. While
+      women in the population have higher cognitive skills, this is reversed
+      when controlling for educational level because of the differential
+      education sorting. Given that the returns to cognitive skills are higher
+      than the returns to good behavior in the labor market, I find that
+      accounting for skill mix helps explain 7–12 percent of the gender wage gap
+      among the college-educated. The findings highlight the potential problems
+      associated with gender comparisons at the same educational level,
+      particularly when various skills are not available.
+
+pre_doctoral:
+
+  - title: "The Relative Poorness of the Old Living Alone"
+    venue: "Korean Journal of Population Studies, 41(3), October 2018"
+
+  - title: "The Effect of the National Basic Living Security System in Korea on Labor Supply"
+    venue: "Master's Thesis, Seoul National University, 2019"

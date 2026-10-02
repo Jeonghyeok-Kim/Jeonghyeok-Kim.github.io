@@ -1,0 +1,48 @@
+# ------------------------------------------------------------
+#  Site settings. Edit the profile block below when your
+#  title, affiliation, email or links change — every page
+#  picks it up automatically.
+# ------------------------------------------------------------
+
+title: Jeonghyeok Kim
+tagline: Economist, Institute of Economics, Academia Sinica
+description: >-
+  Jeonghyeok Kim (金楨赫) is an Assistant Research Fellow at the Institute of
+  Economics, Academia Sinica, working on labor economics, economics of
+  education, and health economics.
+url: https://jeonghyeok-kim.github.io
+lang: en
+
+profile:
+  name: Jeonghyeok Kim
+  name_alt: 金楨赫 · 김정혁
+  position: Assistant Research Fellow (Assistant Professor)
+  institution: Institute of Economics, Academia Sinica
+  institution_url: https://www.econ.sinica.edu.tw/
+  address: Nankang, Taipei, Taiwan
+  photo: /assets/img/profile.jpg      # upload a photo with this name; initials show until then
+  email: jk@econ.sinica.edu.tw
+  email_alt: jhk6222@gmail.com
+  cv: /assets/CV.pdf
+  scholar: https://scholar.google.com/citations?user=3UnLqmgAAAAJ&hl=en
+
+# Top menu (order = order shown)
+nav:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research/
+  - title: Teaching
+    url: /teaching/
+  - title: CV
+    url: /assets/CV.pdf
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+markdown: kramdown
+
+exclude:
+  - README.md
+  - files/papers/aa

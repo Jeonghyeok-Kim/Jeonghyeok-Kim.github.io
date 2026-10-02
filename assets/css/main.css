@@ -1,0 +1,127 @@
+/* ------------------------------------------------------------
+   Colors and fonts. Change the values here to restyle the site.
+   ------------------------------------------------------------ */
+:root {
+  --paper: #f7f5f0;
+  --card: #ffffff;
+  --ink: #1f2328;
+  --muted: #5f6670;
+  --rule: #e2ddd3;
+  --accent: #2f5d50;        /* deep green */
+  --accent-soft: #e6eeea;
+  --serif: "Newsreader", Georgia, "Times New Roman", serif;
+  --sans: "Source Sans 3", -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 17px/1.65 var(--sans);
+}
+
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { color: #1d4237; }
+
+.wrap { max-width: 920px; margin: 0 auto; padding: 0 24px; }
+
+/* Header ----------------------------------------------------- */
+.site-header { border-bottom: 1px solid var(--rule); background: var(--paper); }
+.header-inner { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; padding: 26px 24px 18px; }
+.brand { text-decoration: none; color: var(--ink); display: flex; flex-direction: column; line-height: 1.2; }
+.brand-name { font: 600 22px var(--serif); letter-spacing: -0.01em; }
+.brand-sub { font-size: 13px; color: var(--muted); margin-top: 3px; }
+.site-header nav { display: flex; gap: 26px; flex-wrap: wrap; }
+.site-header nav a {
+  color: var(--muted); text-decoration: none; font-size: 15px; font-weight: 500;
+  padding-bottom: 4px; border-bottom: 2px solid transparent;
+}
+.site-header nav a:hover { color: var(--ink); }
+.site-header nav a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--accent); }
+
+.page { padding-top: 48px; padding-bottom: 56px; min-height: 60vh; }
+
+/* Home ------------------------------------------------------- */
+.intro { display: grid; grid-template-columns: minmax(0, 1fr) 250px; gap: 56px; align-items: start; }
+.eyebrow { margin: 0 0 4px; font-size: 14px; color: var(--muted); letter-spacing: 0.04em; }
+.intro h1 { font: 500 44px/1.1 var(--serif); margin: 0 0 14px; letter-spacing: -0.015em; }
+.role { margin: 0 0 26px; padding-left: 14px; border-left: 3px solid var(--accent); color: var(--ink); line-height: 1.5; }
+.role a { text-decoration: none; font-weight: 500; }
+.prose p { margin: 0 0 1.1em; }
+
+.intro-card { background: var(--card); border: 1px solid var(--rule); border-radius: 10px; padding: 18px; }
+.photo-frame {
+  position: relative; aspect-ratio: 4 / 5; border-radius: 6px; overflow: hidden;
+  background: var(--accent-soft); display: grid; place-items: center;
+}
+.photo-frame img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.initials { font: 500 56px var(--serif); color: var(--accent); }
+.contact { margin: 16px 0 0; font-size: 14.5px; line-height: 1.45; }
+.contact dt { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-top: 12px; }
+.contact dd { margin: 3px 0 0; overflow-wrap: anywhere; }
+
+/* Inner pages ------------------------------------------------ */
+.page-title { font: 500 38px/1.15 var(--serif); margin: 0 0 8px; letter-spacing: -0.01em; }
+.section { margin-top: 40px; }
+.section-title, .prose h2 {
+  display: flex; align-items: center; gap: 14px;
+  font: 600 13px var(--sans); text-transform: uppercase; letter-spacing: 0.12em;
+  color: var(--accent); margin: 0 0 22px;
+}
+.section-title::after, .prose h2::after { content: ""; flex: 1; height: 1px; background: var(--rule); }
+.prose h2 { margin-top: 40px; }
+.prose h2:first-child { margin-top: 0; }
+.prose ul { margin: 4px 0 20px; padding-left: 20px; }
+.prose li { margin-bottom: 2px; }
+
+/* Papers */
+.paper { padding: 0 0 22px; margin-bottom: 22px; border-bottom: 1px dashed var(--rule); }
+.section .paper:last-child { border-bottom: 0; }
+.paper-title { font: 500 20px/1.35 var(--serif); margin: 0 0 4px; }
+.paper-title a { color: var(--ink); text-decoration: none; }
+.paper-title a:hover { color: var(--accent); text-decoration: underline; }
+.paper p { margin: 0; }
+.paper-meta { color: var(--muted); }
+.paper-venue { font-style: italic; font-family: var(--serif); font-size: 17.5px; }
+.paper-honor { font-size: 14.5px; margin-top: 6px !important; }
+.paper-honor::before { content: "★ "; color: var(--accent); }
+.paper-media { font-size: 14.5px; color: var(--muted); }
+
+.paper-actions { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 8px; margin-top: 10px; }
+.chip, .abstract summary {
+  display: inline-block; font-size: 13.5px; font-weight: 500; line-height: 1;
+  padding: 6px 11px; border-radius: 999px; border: 1px solid var(--rule);
+  background: var(--card); color: var(--ink); text-decoration: none; cursor: pointer;
+}
+.chip:hover, .abstract summary:hover { border-color: var(--accent); color: var(--accent); }
+.abstract summary { list-style: none; }
+.abstract summary::-webkit-details-marker { display: none; }
+.abstract summary::after { content: " +"; color: var(--accent); }
+.abstract[open] { flex-basis: 100%; }
+.abstract[open] summary::after { content: " −"; }
+.abstract p {
+  margin-top: 12px; padding: 14px 16px; background: var(--card); border-left: 3px solid var(--accent);
+  border-radius: 0 6px 6px 0; font-size: 15.5px; line-height: 1.6; color: #3b4048;
+}
+
+/* Footer ----------------------------------------------------- */
+.site-footer { border-top: 1px solid var(--rule); font-size: 13.5px; color: var(--muted); }
+.footer-inner { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding: 22px 24px 34px; }
+
+/* Phones ----------------------------------------------------- */
+@media (max-width: 720px) {
+  .header-inner { flex-direction: column; align-items: flex-start; gap: 14px; padding-top: 20px; }
+  .site-header nav { gap: 20px; }
+  .page { padding-top: 30px; }
+  .intro { grid-template-columns: 1fr; gap: 28px; }
+  .intro h1 { font-size: 36px; }
+  .intro-card { display: grid; grid-template-columns: 110px 1fr; gap: 16px; align-items: start; }
+  .photo-frame { aspect-ratio: 4 / 5; }
+  .initials { font-size: 36px; }
+  .contact { margin-top: 0; }
+  .contact dt:first-child { margin-top: 0; }
+  .page-title { font-size: 32px; }
+}

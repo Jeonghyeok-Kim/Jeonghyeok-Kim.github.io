@@ -1,0 +1,23 @@
+---
+layout: default
+title: Research
+permalink: /research/
+---
+<!-- The paper list comes from _data/papers.yml. Edit that file to add or update papers. -->
+
+<h1 class="page-title">Research</h1>
+
+<section class="section">
+  <h2 class="section-title">Publications</h2>
+  {% for paper in site.data.papers.publications %}{% include paper.html %}{% endfor %}
+</section>
+
+<section class="section">
+  <h2 class="section-title">Working Papers</h2>
+  {% for paper in site.data.papers.working_papers %}{% include paper.html %}{% endfor %}
+</section>
+
+<section class="section">
+  <h2 class="section-title">Pre-doctoral Papers</h2>
+  {% for paper in site.data.papers.pre_doctoral %}{% include paper.html %}{% endfor %}
+</section>
