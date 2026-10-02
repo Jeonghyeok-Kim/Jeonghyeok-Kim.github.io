@@ -53,9 +53,10 @@ a:hover { color: #1d4237; }
 .photo-frame img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; }
 .initials { font: 500 52px var(--serif); color: var(--accent); }
 
-.profile-name { font: 500 24px/1.2 var(--serif); margin: 18px 0 2px; }
+.profile-name { font: 500 24px/1.2 var(--serif); margin: 18px 0 8px; }
 .profile-alt { margin: 0 0 8px; font-size: 14px; color: var(--muted); }
-.profile-role { margin: 0 0 14px; font-family: var(--serif); font-style: italic; font-size: 15.5px; line-height: 1.4; }
+.profile-position { margin: 0; font-size: 16px; font-weight: 500; line-height: 1.4; }
+.profile-affil { margin: 2px 0 0; font-size: 15px; color: var(--muted); line-height: 1.45; }
 .profile-links { list-style: none; margin: 0; padding: 0; font-size: 15px; }
 .profile-links li { margin-bottom: 3px; }
 .profile-links a { text-decoration: none; }
@@ -111,8 +112,8 @@ a:hover { color: #1d4237; }
   .site-header nav { gap: 20px; }
   .page { padding-top: 28px; }
   .intro { grid-template-columns: 1fr; gap: 28px; }
-  .profile { display: grid; grid-template-columns: 112px 1fr; column-gap: 18px; align-items: start; }
-  .profile .photo-frame { grid-row: 1 / span 4; }
+  .profile { display: grid; grid-template-columns: 112px 1fr; grid-template-rows: auto auto 1fr; column-gap: 18px; align-items: start; }
+  .profile .photo-frame { grid-row: 1 / span 3; }
   .initials { font-size: 34px; }
   .profile-name { margin-top: 0; }
 }

@@ -18,7 +18,8 @@ layout: default
       <span class="initials" aria-hidden="true">JK</span>
     </div>
     <h1 class="profile-name">{{ p.name }}</h1>
-    <p class="profile-role">{% for line in p.title_lines %}{{ line }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</p>
+    <p class="profile-position">{{ p.position }}</p>
+    <p class="profile-affil">{% for line in p.affiliation_lines %}{{ line }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</p>
   </aside>
 
   <div class="intro-text prose">

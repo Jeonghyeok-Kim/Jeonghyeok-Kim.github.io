@@ -16,9 +16,9 @@ lang: en
 profile:
   name: Jeonghyeok Kim
   name_suffix: (金楨赫; JK)          # shown after the name at the top left
-  title_lines:                       # lines shown under the photo
-    - Assistant Research Fellow
-    - Institute of Economics,
+  position: Assistant Research Fellow   # shown under the photo
+  affiliation_lines:                    # shown under the position, in grey
+    - Institute of Economics
     - Academia Sinica
   institution: Institute of Economics, Academia Sinica
   institution_url: https://www.econ.sinica.edu.tw/
