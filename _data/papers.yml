@@ -10,7 +10,7 @@
 #  info:       text shown right after the title, e.g. coauthors or status
 #  links:      shown as "pdf | SSRN | ..." under the title
 #  notes:      extra lines under the links (awards, media, ...)
-#  abstract:   shown when "Abstract" is clicked
+#  summary:    one-sentence summary shown on the right
 #
 #  In info / notes you can write links as [text](https://...).
 # ------------------------------------------------------------
@@ -18,26 +18,16 @@
 working_papers:
 
   - title: "Neighborhood Impacts on STEM Major Choice"
+    summary: "Growing up in a STEM-rich neighborhood makes students more likely to major in STEM, with effects that grow with each additional year of exposure."
     info: "(with Rohit Munshi and Brian Murphy)"
     links:
       pdf: /assets/Neighborhood_effects_STEM.pdf
       EdWorkingPapers: https://edworkingpapers.com/ai25-1263
     notes:
       - "This paper is featured in the [EdWorkingPapers Policy and Practice Series](https://edworkingpapers.com/policy-practice-series/ai25-1263)."
-    abstract: >-
-      This paper provides causal evidence that childhood neighborhoods shape
-      college major choice. Using Texas administrative data and variation in
-      school-move timing, we estimate the effect of neighborhood exposure on
-      STEM major choice. Students who move to STEM-rich neighborhoods are more
-      likely to major in STEM with each additional year of exposure. Local STEM
-      occupational composition is an important neighborhood characteristic
-      underlying this effect. The effects operate primarily through behavioral
-      pathways rather than academic performance. The benefits of STEM-rich
-      neighborhoods extend to underrepresented groups. These findings
-      underscore the critical role of neighborhoods in shaping educational
-      pathways and STEM participation.
 
   - title: "The Long Shadow of School Closures: Impacts on Students' Educational and Labor Market Outcomes"
+    summary: "School closures lower displaced students' test scores, educational attainment, and earnings well into their late twenties."
     info: ", Forthcoming at *American Economic Journal: Economic Policy*"
     links:
       pdf: /assets/School_Closure_and_Student_Outcomes.pdf
@@ -46,70 +36,25 @@ working_papers:
     notes:
       - "[Recognized as One of the Five Best Education Research Studies of 2024 by Fordham Institute](https://x.com/MichaelPetrilli/status/1870111404180574369)"
       - "Media Coverage: [EducationWeek](https://www.edweek.org/leadership/the-harm-of-school-closures-can-last-a-lifetime-new-research-shows/2024/06), [Texas Standard (NPR)](https://www.texasstandard.org/stories/school-closures-texas-pease-elementary-impact-students-academics/), [Houston Chronicle](https://www.houstonchronicle.com/news/houston-texas/education/hisd/article/school-closures-academics-21358511.php)"
-    abstract: >-
-      Each year, about a thousand public schools in the US close, displacing
-      hundreds of thousands of students. I examine the impact of public school
-      closures on displaced students using linked schooling and labor market
-      data from Texas. Using within-school across-time/cohort variation in
-      exposure to school closures, I implement difference-in-differences
-      strategies to identify causal effects. I find that school closures
-      decrease test scores, increase absenteeism, and lead to more disciplinary
-      actions. Furthermore, school closures decrease high school completion,
-      college attainment, employment, and earnings at ages 25–27. These impacts
-      are larger for secondary school students and those from economically
-      disadvantaged backgrounds.
 
   - title: "The Racial Gap in Friendships Among High-Achieving Students"
+    summary: "Race-neutral homophily and school demographics, rather than \"acting White\" norms, explain most of the friendship gap among high-achieving Black students."
     info: "(with [Weonhyeok Chung](https://sites.google.com/view/weonhyeokchung/home))"
     links:
       pdf: /assets/Friendship_Formation_by_Race_and_Abilities.pdf
       EdWorkingPapers: https://edworkingpapers.com/ai24-1025
-    abstract: >-
-      High-achieving Black students have fewer friends than high-achieving White
-      students. This pattern is often attributed to race-specific cultural
-      norms—most notably, the "acting White" hypothesis—which posit that
-      academically successful Black students face distinctive social costs from
-      their own racial group. Using nationally representative friendship network
-      data from the Add Health study, we revisit this interpretation. We show
-      that the gap can be largely accounted for by two race-neutral forces:
-      universal patterns of homophily—students of all races prefer friends who
-      share their race and achievement level—and the demographic structure of
-      schools, which leaves high-achieving Black students with a much smaller
-      pool of same-race, high-achieving peers. Counterfactual exercises that
-      equalize the demographic composition of schools eliminate most of the
-      friendship gap among high achievers, without invoking any group-specific
-      cultural attitudes toward achievement. Combining these estimates with
-      existing causal estimates of the economic returns to friendship suggests
-      that differences in adolescent social networks may have meaningful
-      downstream consequences for racial inequality in adulthood.
 
   - title: "Low Psychic Costs of Education for Women and the Gender Wage Gap"
+    summary: "Women's lower psychic costs of schooling help explain the gender gap in college attainment and part of the wage gap among college graduates."
     info: ", Revise and Resubmit at *Economics of Education Review*"
     links:
       pdf: /assets/Noncognitive_skills_and_gender_gaps.pdf
       SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4758383
-    abstract: >-
-      In recent years, women have surpassed men in educational attainment,
-      leading some researchers to propose that women may have lower psychic
-      costs of attending school. To understand the implications of this, I
-      incorporate psychic costs explicitly into the Becker model of human
-      capital. The model generates predictions about differential sorting into
-      college and gender gaps in skills, education, and wages, which I
-      investigate with data from the NLSY97. I find that women have lower
-      psychic costs—measured by behavioral misdemeanors—controlling for which
-      reduces the estimated gender gap in college attainment by one-third. While
-      women in the population have higher cognitive skills, this is reversed
-      when controlling for educational level because of the differential
-      education sorting. Given that the returns to cognitive skills are higher
-      than the returns to good behavior in the labor market, I find that
-      accounting for skill mix helps explain 7–12 percent of the gender wage gap
-      among the college-educated. The findings highlight the potential problems
-      associated with gender comparisons at the same educational level,
-      particularly when various skills are not available.
 
 publications:
 
   - title: "\"Population Changes and Emerging Challenges to Global Primary Education Provision\""
+    summary: "Demographic change is polarizing primary education systems worldwide, from expansion pressure in poorer countries to consolidation in aging societies like Korea."
     title_link: https://onlinelibrary.wiley.com/doi/full/10.1111/padr.70059
     info: ", *Population and Development Review*, Volume 52, Issue 2, June 2026 (with [Emily Hannum](https://sociology.sas.upenn.edu/people/emily-hannum) and [Fan Wang](https://fanwangecon.github.io/))"
 
