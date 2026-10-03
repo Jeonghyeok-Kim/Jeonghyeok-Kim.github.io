@@ -6,7 +6,7 @@ Welcome!
 
 I am an Assistant Research Fellow (Assistant Professor) at the [Institute of Economics, Academia Sinica](https://www.econ.sinica.edu.tw/).
 
-My primary research interests are in labor economics, the economics of education, and health economics.
+My primary research interests are in _labor economics_, _the economics of education_, and _health economics_.
 
 [CV](/assets/CV.pdf), [Google Scholar](https://scholar.google.com/citations?user=3UnLqmgAAAAJ&hl=en)
 
