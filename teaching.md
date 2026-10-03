@@ -16,12 +16,11 @@ Yonsei University, Seoul, Korea
 University of Houston, Department of Economics, Texas, USA
 
 - Principles of Microeconomics (Fall 2022)
-- Intermediate Microeconomics (Fall 2023)
 
 ## Teaching Assistant
 
 University of Houston, Department of Economics, Texas, USA Fall 2019 - Fall 2024
 
-- Microeconomics (Ph.D.), Labor Economics 1 & 2 (Ph.D.), Applied Econometrics, Econometrics (M.A.)
+- Microeconomics (Ph.D.), Labor Economics 1 & 2 (Ph.D.), Applied Econometrics (Ph.D.), Econometrics (M.A.)
 
 </div>
