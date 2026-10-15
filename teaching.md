@@ -11,7 +11,7 @@ permalink: /teaching/
 Yonsei University, Seoul, Korea
 
 - Pre-Doctoral Training Program in Causal Inference (Winter 2025)
-- Quantitative Methods and Health Policy Research(Spring 2026; co-taught with Hyuncheol Bryant Kim )
+- Quantitative Methods and Health Policy Research(Spring 2026 Ph.D.; co-taught with Hyuncheol Bryant Kim)
 
 University of Houston, Department of Economics, Texas, USA
 
