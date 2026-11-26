@@ -14,7 +14,7 @@ lang: en
 
 profile:
   name: Jeonghyeok Kim
-  name_suffix: (金楨赫; JK)          # shown after the name at the top left
+  name_suffix: (김정혁; 金楨赫; JK)          # shown after the name at the top left
   position: Assistant Research Fellow   # shown under the photo
   affiliation_lines:                    # shown under the position, in grey
     - Institute of Economics
